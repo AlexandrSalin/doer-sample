@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_centerInParent="true">
+    <ProgressBar
+        android:id="@+id/task_id"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:paddingBottom="20dp"/>
+
+    <Button
+        android:id="@+id/task_id_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="start single task"
+        android:paddingBottom="20dp"/>
+
+    <ProgressBar
+        android:id="@+id/task_complex_id"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:paddingBottom="20dp"/>
+
+    <Button
+        android:id="@+id/task_complex_id_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="start complex task"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="20dp"/>
+</LinearLayout>
+</RelativeLayout>

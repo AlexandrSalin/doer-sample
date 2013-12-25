@@ -1,0 +1,6 @@
+[submodule "libs/jems"]
+	path = libs/jems
+	url = git@github.com:AlexandrSalin/jems.git
+[submodule "libs/doer"]
+	path = libs/doer
+	url = git@github.com:AlexandrSalin/doer.git
